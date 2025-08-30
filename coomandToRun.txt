@@ -1,0 +1,2 @@
+javac -cp "zxing/*" QRCodeGenerator.java -d out :0 this will compile for the link
+java -cp "zxing/*;out" QRCodeGenerator :- this will run the program 
